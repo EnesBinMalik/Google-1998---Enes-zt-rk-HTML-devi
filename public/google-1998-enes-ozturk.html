@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <!-- Karakter seti tanımlaması -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google! (1998) - Enes Öztürk HTML Ödevi</title>
+    
+    <!-- Yazar Bilgisi -->
+    <meta name="author" content="Enes Öztürk">
+    
+    <style>
+        body {
+            background-color: #FFFFFF;
+            color: #000000;
+            font-family: "Times New Roman", Times, serif;
+            margin: 20px;
+        }
+        
+        /* 1998 Orijinal Web Bağlantı Renkleri */
+        a {
+            color: #0000CC;
+            text-decoration: underline;
+        }
+        
+        a:visited {
+            color: #551A8B;
+        }
+        
+        a:active {
+            color: #FF0000;
+        }
+        
+        /* Arama Kutusu ve Butonlar */
+        input[type="text"] {
+            font-family: monospace, sans-serif;
+            font-size: 14px;
+            padding: 2px 4px;
+        }
+        
+        input[type="submit"], input[type="button"] {
+            font-size: 13px;
+            padding: 2px 8px;
+            cursor: pointer;
+            margin: 2px;
+        }
+        
+        /* Enes Öztürk Ödev İmzası */
+        .signature-box {
+            margin: 30px auto 0 auto;
+            max-width: 650px;
+            padding: 10px;
+            background-color: #F8FAFC;
+            border: 1px dashed #70CCC2;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+            color: #333333;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ========================================================= -->
+    <!-- 1. BÖLÜM: 1998 GOOGLE! LOGOSU                            -->
+    <!-- ========================================================= -->
+    <!-- Orijinal 1998 Google logosu sayfa merkezine yerleştirilir -->
+    <center>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_1998_logo.svg" 
+             alt="Google! 1998 Logo" 
+             width="351" 
+             height="113">
+    </center>
+
+    <br>
+
+    <!-- ========================================================= -->
+    <!-- 2. BÖLÜM: ANA İÇERİK VE ARAMA TABLOSU                     -->
+    <!-- ========================================================= -->
+    <!-- 1998 standartlarına uygun olarak tablo ile düzenlenmiştir -->
+    <center>
+        <table border="0" width="90%" cellspacing="0" cellpadding="6" style="max-width: 720px;">
+            
+            <!-- ARAMA FORMU ALANI (Gri Arka Plan: #EEEEEE) -->
+            <tr>
+                <td bgcolor="#EEEEEE" colspan="3" align="center">
+                    <form action="https://www.google.com/search" method="GET" target="_blank">
+                        <font size="3">Search the web using Google!</font>
+                        <br>
+                        <!-- Arama metin kutusu -->
+                        <input type="text" name="q" value="" size="40" autofocus>
+                        <br>
+                        <!-- Google Search ve I'm feeling lucky butonları -->
+                        <input type="submit" name="btnG" value="Google Search">
+                        <input type="submit" name="btnI" value="I'm feeling lucky">
+                    </form>
+                </td>
+            </tr>
+
+            <!-- 3 KOLONLU ALT HÜCRELER (Orijinal Renk Kodları) -->
+            <tr>
+                <!-- SOL KOLON: ÖZEL ARAMALAR (#7EE5DA Açık Turkuaz) -->
+                <td width="33%" bgcolor="#7EE5DA" align="center" valign="top">
+                    <font size="2">
+                        <b>Special Searches</b><br>
+                        <a href="https://www.stanford.edu" target="_blank">Stanford Search</a><br>
+                        <a href="https://www.kernel.org" target="_blank">Linux Search</a>
+                    </font>
+                </td>
+
+                <!-- ORTA KOLON: YARDIM VE BİLGİ LİNKLERİ (#70CCC2 Orta Turkuaz) -->
+                <td width="33%" bgcolor="#70CCC2" align="center" valign="top">
+                    <font size="2">
+                        <a href="https://tr.wikipedia.org/wiki/Google" target="_blank">Help!</a><br>
+                        <a href="https://tr.wikipedia.org/wiki/Google" target="_blank">About Google!</a><br>
+                        <a href="https://tr.wikipedia.org/wiki/Larry_Page" target="_blank">Company Info</a><br>
+                        <a href="https://web.archive.org/web/19981202230410/http://www.google.com/" target="_blank">Google! Logos</a>
+                    </font>
+                </td>
+
+                <!-- SAĞ KOLON: AYLIK BÜLTEN ABONELİĞİ (#62B3AA Koyu Turkuaz) -->
+                <td width="33%" bgcolor="#62B3AA" align="center" valign="top">
+                    <font size="2">
+                        Get Google!<br>
+                        updates monthly:
+                        <br>
+                        <!-- E-posta Abonelik Formu -->
+                        <form action="#" method="POST" onsubmit="alert('1998 Google Friends bültenine kaydoldunuz!'); return false;">
+                            <input type="hidden" name="listname" value="google-friends">
+                            <input type="text" name="emailaddr" value="your e-mail" onfocus="if(this.value=='your e-mail')this.value='';" size="15">
+                            <br>
+                            <input type="submit" name="SubmitAction" value="Subscribe"> 
+                            &nbsp;&nbsp;
+                            <a href="https://web.archive.org/web/19981202230410/http://www.google.com/" target="_blank">Archive</a>
+                        </form>
+                    </font>
+                </td>
+            </tr>
+
+        </table>
+    </center>
+
+    <br>
+
+    <!-- ========================================================= -->
+    <!-- 3. BÖLÜM: TELİF HAKKI VE ENES ÖZTÜRK İMZASI               -->
+    <!-- ========================================================= -->
+    <center>
+        <font size="-1">
+            Copyright &copy;1998 Google Inc.
+        </font>
+    </center>
+
+    <!-- Öğrenci Ödev İmzası -->
+    <div class="signature-box">
+        <strong>Ödev Sahibi / Tasarlayan:</strong> Enes Öztürk &bull; 
+        <strong>Konu:</strong> HTML Bölümü 3. ve Son Ödev (Google 1998) &bull; 
+        <strong>Durum:</strong> Tamamlandı
+    </div>
+
+</body>
+</html>

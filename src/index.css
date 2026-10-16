@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+/* 1998 Retro Web Typography and Styles */
+@layer base {
+  body {
+    font-family: "Times New Roman", Times, Baskerville, serif;
+    background-color: #ffffff;
+    color: #000000;
+  }
+}
+
+/* 90's CRT Scanlines Simulation Effect */
+.crt-overlay {
+  position: relative;
+}
+
+.crt-overlay::after {
+  content: " ";
+  display: block;
+  position: fixed;
+  top: 0; left: 0; bottom: 0; right: 0;
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.03), rgba(0, 255, 0, 0.01), rgba(0, 0, 255, 0.03));
+  z-index: 40;
+  background-size: 100% 3px, 6px 100%;
+  pointer-events: none;
+  opacity: 0.75;
+}
+
+/* Classic Netscape scrollbar look */
+::-webkit-scrollbar {
+  width: 14px;
+  height: 14px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ECE9D8;
+  border: 1px solid #C0C0C0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D4D0C8;
+  border-top: 1px solid #FFFFFF;
+  border-left: 1px solid #FFFFFF;
+  border-bottom: 1px solid #808080;
+  border-right: 1px solid #808080;
+}

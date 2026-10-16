@@ -1,0 +1,6 @@
+{
+  "name": "Google 1998 - Enes Öztürk HTML Ödevi",
+  "description": "Google'ın 1998 yılındaki ilk web sürümünün (Wayback Machine) Enes Öztürk imzalı birebir nostaljik tasarımı ve HTML ödev sunumu.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
